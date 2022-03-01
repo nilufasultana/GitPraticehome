@@ -59,6 +59,9 @@ public static WebDriver dr;
 	public void closeBrowser() throws InterruptedException {
 		Thread.sleep(5000);
 		dr.quit();
+	
+	System.out.println();
+	
 	}
 	
 	
